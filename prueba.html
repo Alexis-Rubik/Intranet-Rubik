@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Intranet Corporativa</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: #f4f6f8;
+            color: #333;
+        }
+        header {
+            background-color: #1f2937;
+            color: #fff;
+            padding: 15px 20px;
+            font-size: 20px;
+        }
+        .container {
+            display: flex;
+            min-height: calc(100vh - 56px);
+        }
+        nav {
+            width: 220px;
+            background-color: #111827;
+            padding-top: 20px;
+        }
+        nav a {
+            display: block;
+            color: #d1d5db;
+            padding: 12px 20px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        nav a:hover {
+            background-color: #1f2937;
+            color: #fff;
+        }
+        main {
+            flex: 1;
+            padding: 20px;
+        }
+        h2 {
+            margin-top: 0;
+        }
+        .card {
+            background: #fff;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.08);
+        }
+        ul {
+            padding-left: 18px;
+        }
+        footer {
+            text-align: center;
+            font-size: 12px;
+            color: #6b7280;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    Intranet – Empresa
+</header>
+
+<div class="container">
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#anuncios">Anuncios</a>
+        <a href="#documentos">Documentos</a>
+        <a href="#it">Soporte IT</a>
+        <a href="#contactos">Contactos</a>
+    </nav>
+
+    <main>
+        <section id="inicio" class="card">
+            <h2>Bienvenidos</h2>
+            <p>Esta es la intranet corporativa. Aquí encontrarás información interna, documentos y contactos importantes.</p>
+        </section>
+
+        <section id="anuncios" class="card">
+            <h2>Anuncios</h2>
+            <ul>
+                <li>Mantenimiento de red el viernes a las 18:00.</li>
+                <li>Cierre contable el día 30.</li>
+                <li>Actualización de políticas internas disponible.</li>
+            </ul>
+        </section>
+
+        <section id="documentos" class="card">
+            <h2>Documentos</h2>
+            <ul>
+                <li><a href="#">Manual del empleado</a></li>
+                <li><a href="#">Políticas de IT</a></li>
+                <li><a href="#">Formatos administrativos</a></li>
+            </ul>
+        </section>
+
+        <section id="it" class="card">
+            <h2>Soporte IT</h2>
+            <p>Para soporte técnico:</p>
+            <ul>
+                <li>Correo: soporte@empresa.com</li>
+                <li>Extensión: 123</li>
+                <li>Horario: 8:00 – 17:00</li>
+            </ul>
+        </section>
+
+        <section id="contactos" class="card">
+            <h2>Contactos</h2>
+            <ul>
+                <li>Recursos Humanos: rrhh@empresa.com</li>
+                <li>Contabilidad: contabilidad@empresa.com</li>
+                <li>Gerencia: gerencia@empresa.com</li>
+            </ul>
+        </section>
+    </main>
+</div>
+
+<footer>
+    © 2026 Empresa – Intranet interna
+</footer>
+
+</body>
+</html>
